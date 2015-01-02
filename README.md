@@ -62,16 +62,16 @@ The output is a text file with four columns:
 4. the datum acquired by that particular ADC in that event.
 If there are some ADCs acquiring in coincidence, the results will have the same event number.
 
-# Event | Time [ms] | ADC | datum
----------------------------------
-1       | 1         | 0   | 8191
-1       | 1         | 1   | 66
-1       | 1         | 2   | 1663
-1       | 1         | 3   | 1533
-2       | 14        | 2   | 320
-2       | 14        | 3   | 8001
-3       | 58        | 0   | 5432
-...     | ...       | ... | ...
+| Event | Time [ms] | ADC | datum |
+| ----- | --------- | --- | ----- |
+| 1     | 1         | 0   | 8191  |
+| 1     | 1         | 1   | 66    |
+| 1     | 1         | 2   | 1663  |
+| 1     | 1         | 3   | 1533  |
+| 2     | 14        | 2   | 320   |
+| 2     | 14        | 3   | 8001  |
+| 3     | 58        | 0   | 5432  |
+| ...   | ...       | ... | ...   |
 
 ## License
 
